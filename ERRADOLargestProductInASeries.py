@@ -3,7 +3,6 @@ largestPalin=0
 digits=len(n)
 for i in range (0,digits-3):
     prdct=int(n[i])*int(n[i+1])*int(n[i+2])*int(n[i+3])
-    print(int(n[i]),int(n[i+1]),int(n[i+2]),int(n[i+3]),prdct)
     if (prdct!=0):
         prdctStr=str(prdct) #Produto em forma de String
         print (prdctStr)
